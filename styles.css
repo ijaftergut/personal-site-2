@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: palegreen;
+    font-family: verdana;
+}
+#container{
+    border: solid 1px black;
+    padding: 1rem;
+
+}
+.tw0-column{
+    display: flex;
+}
+.two-column > div:first-child{
+    background-color: lightcyan;
+
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.two-column > div:last-child{
+    background-color: mintcream;
+    color: blue;
+    flex: 1;
+}
+.card{
+    padding: 0.5rem;
+    border: solid 1px black;
+    width: calc(100% / 3 - 2rem);
+    margin: 1rem;
+    background-color: palegreen;
+    border-radius: .5rem;
+}
+.card h4 {
+    margin: 0;
+}
+@media (max-width: 400px){
+    .card {
+        width: 100%;
+    }
+    .two-column{
+        flex-direction: column;
+    }
+}
