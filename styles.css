@@ -5,6 +5,21 @@ body{
     background-color: palegreen;
     font-family: verdana;
 }
+nav{
+    display: flex;
+    background-color: violet;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    color: white;
+    padding: 1rem;
+
+}
+nav a.selected{
+    border: solid 1px white;
+}
 #container{
     border: solid 1px black;
     padding: 1rem;
@@ -43,4 +58,14 @@ body{
     .three-column{
         flex-direction: column;
     }
+}
+.prof {
+    background-image: url("rock.png");
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px #ff00ff;
 }
