@@ -10,17 +10,17 @@ body{
     padding: 1rem;
 
 }
-.tw0-column{
+.three-column{
     display: flex;
 }
-.two-column > div:first-child{
+.three-column > div:first-child{
     background-color: lightcyan;
 
     flex: 3;
     display: flex;
     flex-wrap: wrap;
 }
-.two-column > div:last-child{
+.three-column > div:last-child{
     background-color: mintcream;
     color: blue;
     flex: 1;
@@ -40,7 +40,7 @@ body{
     .card {
         width: 100%;
     }
-    .two-column{
+    .three-column{
         flex-direction: column;
     }
 }
