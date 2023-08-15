@@ -15,7 +15,7 @@ ul{
 ul li{
     padding: 0.5rem;
     border: solid 1px black;
-    width: calc(100% / 3 - 2rem);
+    width: calc(100% / 4 - 4rem);
     margin: 1rem;
     background-color: lightcyan;
     border-radius: .5rem;

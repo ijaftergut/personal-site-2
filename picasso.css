@@ -18,9 +18,12 @@ div{
 :hover.character{
   background-color: firebrick;
   border-radius: 10px;
-  
 }
 #sun{
   background-color: yellow;
+  border-radius: 10px;
+}
+.clicked{
+  background-color: firebrick !important;
   border-radius: 10px;
 }
