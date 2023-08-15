@@ -1,0 +1,39 @@
+body {
+    font-family: 'Franklin Gothic Medium';
+    color: dodgerblue;
+    background-color: darkslategrey;
+}
+img{
+    width: 550px;
+    height: 400px;
+}
+#img1{
+    width: 800px;
+    height: 400px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li{
+    padding: 0.5rem;
+    border: solid 1px black;
+    width: calc(100% / 3 - 2rem);
+    margin: 1rem;
+    background-color: lightcoral;
+    border-radius: .5rem;
+}
+ul a{
+    padding: 0.5rem;
+    border: solid 1px black;
+    width: calc(100% / 3 - 2rem);
+    margin: 1rem;
+    background-color: lightcoral;
+    border-radius: .5rem;
+}
+@media (max-width: 800px){
+    #img1{
+        width: 200px;
+        height: 100px;
+    }
+}
