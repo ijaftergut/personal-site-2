@@ -12,6 +12,8 @@ nav > a {
 }
 .hover:hover{
     background-color: cadetblue;
+    font-size:larger;
+    color: lightcyan;
 }
 
 nav > a:last-child {

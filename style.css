@@ -17,7 +17,7 @@ ul li{
     border: solid 1px black;
     width: calc(100% / 3 - 2rem);
     margin: 1rem;
-    background-color: lightcoral;
+    background-color: lightcyan;
     border-radius: .5rem;
 }
 ul a{
@@ -25,7 +25,7 @@ ul a{
     border: solid 1px black;
     width: calc(100% / 3 - 2rem);
     margin: 1rem;
-    background-color: lightcoral;
+    background-color: lightcyan;
     border-radius: .5rem;
 }
 @media (max-width: 800px){
@@ -43,4 +43,17 @@ footer{
     justify-content:flex-end;
     align-items: center;
     width: max-content;
+}
+.div1{
+    display: flex;
+    
+}
+.div1 label{
+    border: 1px solid black;
+    border-radius: 5%;
+}
+.div1 input{
+    border: 1px solid black;
+    border-radius: 20%;
+    background-color: aqua;
 }
