@@ -2,12 +2,12 @@
     box-sizing: border-box;
 }
 body{
-    background-color: palegreen;
+    background-color: violet;
     font-family: verdana;
 }
 nav{
     display: flex;
-    background-color: violet;
+    background-color: red;
     padding: 1rem;
     justify-content: space-around;
     align-items: center;
@@ -29,15 +29,16 @@ nav a.selected{
     display: flex;
 }
 .three-column > div:first-child{
-    background-color: lightcyan;
+    background-color: tomato;
 
     flex: 3;
     display: flex;
     flex-wrap: wrap;
 }
 .three-column > div:last-child{
-    background-color: mintcream;
-    color: blue;
+    background-color: lightcyan;
+    opacity: 30%;
+    color: light salmon;
     flex: 1;
 }
 .card{
@@ -45,7 +46,7 @@ nav a.selected{
     border: solid 1px black;
     width: calc(100% / 3 - 2rem);
     margin: 1rem;
-    background-color: palegreen;
+    background-color: lightcoral;
     border-radius: .5rem;
 }
 .card h4 {
