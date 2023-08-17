@@ -4,3 +4,7 @@ body {
     color: dodgerblue;
     text-shadow: 2px 2px lightcyan;
     }
+h3 {
+    display: flex;
+    flex-wrap: wrap;
+    }
