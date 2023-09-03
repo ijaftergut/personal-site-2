@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <script src="javascript.js"></script>
     <link href="style.css" rel="stylesheet"/>
     <link href="flexbox.css" rel="stylesheet"/>
+    <script src="practice.js" defer></script>
+    <title>Practice</title>
 </head>
 <body>
-    <h1>About Page</h1>
+    <h1>Practice</h1>
     <nav>
         <a class="hover" href="index.html">Home</a>
         <a class="hover" href="about.html">About</a>
@@ -18,13 +18,12 @@
         <a class="hover" href="practice.html">Practice</a>
         <a class="hover" href="contact.html">Contact</a>
     </nav>
-    <h2>Fun Facts</h2>
-    <ul>
-        <li>I live in Virginia</li>
-        <li>I have three dogs at the moment</li>
-        <li>I have lived for several months in Tel Aviv, Israel</li>
-        <li>I spent most of the last year in Atlanta, Georgia</li>
-        <li>I survived three months travelling Europe for a max of three nights in one city</li>
-    </ul>
+
+    <form>
+        <label for="practice" type="text"></label>
+        <input name="practice" class="practice" type="text">
+        <button type="submit">Submit</button>
+    </form>
+    <h3 id="placeholder"></h3>
 </body>
 </html>
